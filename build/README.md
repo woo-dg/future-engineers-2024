@@ -23,4 +23,4 @@ Our steering mechanism employs Ackerman steering geometry, where the servo motor
 
 ## Materials
 
-When creating our robot, we aimed to easily iterate and update the design as we tested it.To achieve this flexibility, we CAD-designed several different versions of the same parts, allowing us to test and determine which were the most effective and properly optimized for the overall design of the robot. This approach helped us identify the optimal configuration for our robot's performance.
+When creating our robot, we aimed to easily iterate and update the design as we tested it. To achieve this flexibility, we CAD-designed several different versions of the same parts, allowing us to test and determine which were the most effective and properly optimized for the overall design of the robot. This approach helped us identify the optimal configuration for our robot's performance.
