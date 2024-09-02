@@ -25,7 +25,7 @@ The robot starts by using the RGB sensor, IR sensors, and gyro to maintain a str
 
 Based on the block’s position and color, the robot adjusts its steering to follow the block closely. This helps the robot maintain a path that avoids obstacles and keeps it on course.
 
-## Wall Following::
+## Wall Following:
 When no blocks are detected or when the robot needs to avoid obstacles on its sides, it uses IR sensors for wall following. The robot measures the distance to the walls on its left and right and adjusts its course accordingly:
 `if (bl) {
     if (distL < 30 && distR > 30) {
@@ -58,7 +58,7 @@ The robot carefully checks its surroundings and only turns after confirming both
 
 If the robot reaches a point where it needs to make a 180-degree turn (reverse lap), it uses the gyro to rotate until it’s aligned with the new direction:
 `
-dA = -8783;
+dA = -783;
 bl = true;
 o = false;`
 
