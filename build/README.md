@@ -12,3 +12,11 @@ Utilizing all four wheels proved advantageous, particularly in maintaining a sma
 | Rear-Wheel Drive |
 | ---------------- |
 | ![image](https://drive.google.com/uc?id=1Jf-CvguoRfaVFCoVMNndH-xFYlsa_ZU-) |
+
+## Steering
+
+Our steering mechanism employs Ackerman steering geometry, where the servo motor adjusts the bar, altering the wheel angles and, consequently, the vehicle's direction. This type of steering proved to be the most efficient for our needs and was straightforward to implement, requiring only a servo motor and a simple linkage that connects the servo to the wheel axles. This design choice not only enhanced maneuverability but also simplified the overall construction process.
+
+| Steering Mechanism |
+| --------------------------- |
+| ![image](https://drive.google.com/uc?id=16rHeZFgRDMQf3lHZIuXqODQA6GuB-DN7) |
