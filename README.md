@@ -6,14 +6,13 @@ This repository contains engineering materials of a self-driven vehicle model pa
 ## Content
 * `build` contains documentation about our chassis and material choice
 * `electrical` contains schematic diagrams demonstrating the connections between different electromechanical components. It also includes the available datasheets for the aforementioned components, and it also has a markdown file explaining the reasoning for each component.
-* `models` contains the files used by 3D printers to produce the vehicle elements.
 * `photos` contains two folders where one contains the team photos and the other contains the robot photos
 * `src` contains the code of control software for all components that were programmed to participate in the competition
 * `strategy` contains documentation and diagrams explaining our approach to the problem
 * `video` contains the video.md file with the link to a video where the driving demonstration exists
 
 ## Rubric Requirements
-* `Mobility Management` is found in `build`, `electrical`, and `models`
+* `Mobility Management` is found in `build` and  `electrical` 
 * `Power and Sense Management` is found in `electrical`
 * `Obstacle Management` is found in `strategy` and `src`
 * `Pictures - Team and Vehicle` is found in `photos`
