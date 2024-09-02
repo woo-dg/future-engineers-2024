@@ -16,3 +16,12 @@ In the open challenge, the only variations to the field are the size of the inte
 | ------------------------ |
 | ![image](https://drive.google.com/uc?id=1_4qiJSqqLnAqw7ilf54cnIb5HE8X9X17) |
 
+## Obstacle Challenge Strategy
+
+Our strategy for the obstacle challenge is to maintain the closest detected color on the designated side of the robot. This is achieved by monitoring the x-position of objects identified by the camera and adjusting the steering accordingly to ensure that the object remains on the correct side. The turning and stopping mechanisms will utilize the same logic that was successfully implemented in the open challenge.
+
+To optimize our steering adjustments, we employ a proportional control loop, which will allow for precise maneuvering as the robot encounters obstacles. This approach ensures that our movements are both accurate and responsive to the environment.
+
+| Obstacle Challenge Simple Approach |
+| ---------------------------------- |
+| ![image](https://drive.google.com/uc?id=18gsX1JlRYennzsx7GrNMAYbRCy7gM8yc) |
