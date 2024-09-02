@@ -94,7 +94,7 @@ void loop(void) {
 
   // Obstacle and color detection logic
   if (c < 10 && r < 15) {
-    // Handle specific conditions for red color detection and turning
+    // Handle specific conditions for blue line detection and turning
     if (!o) {
       bl = true;
       bc++;
@@ -118,7 +118,7 @@ void loop(void) {
       move_str(true, 0, 200);
     }
   } else if (g > 1024 && b > 1024 && c < 100) {
-    // Handle specific conditions for blue color detection and turning
+    // Handle specific conditions for orange line detection and turning
     if (!bl) {
       o = true;
       oc++;
