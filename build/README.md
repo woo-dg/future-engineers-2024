@@ -9,6 +9,6 @@ We opted for a straightforward chassis design, prioritizing simplicity to minimi
 
 Utilizing all four wheels proved advantageous, particularly in maintaining a small turning radius, which is important for maneuverability in tight spaces. Additionally, we designed the wheelbase-to-track ratio to be 1:1.6. This specific ratio was selected to optimize stability, ensuring that our robot maintains a controlled movement even during sharp turns and complex maneuvers. 
 
-| Rear-Wheel Drive | Front Wheel Drive |
-| ---------------- | ----------------- |
+| Rear-Wheel Drive |
+| ---------------- |
 | ![image](https://drive.google.com/uc?id=1Jf-CvguoRfaVFCoVMNndH-xFYlsa_ZU-) |
