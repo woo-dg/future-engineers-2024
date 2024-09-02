@@ -66,7 +66,7 @@ This code adjusts the robot’s internal angle tracking, ensuring it’s ready t
 
 
 ## Parking Logic:
-Parking Detection: The robot enters the parking phase when it has completed the the 3 laps. It slows down and aligns itself precisely before stopping:
+After completing three laps, the robot enters the parking phase. It uses the Pixy2 camera to detect nearby objects and adjust its final position. Depending on whether it's in left or right mode, the robot makes slight adjustments to its steering based on the detected signature. If it sees a close block, it fine-tunes its position by setting the servo to a specific angle—either 50 or 120 degrees—depending on the direction. The robot then stops the motor, pauses briefly, and powers up slightly to hold its position, finally entering a prolonged delay to ensure it stays parked securely within the boundaries.
 `   else if (p== true){
     if (bl == true){
       if (sig == 1||sig == 2){
