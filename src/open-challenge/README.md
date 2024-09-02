@@ -8,7 +8,7 @@ int steer = map(error, -30, 30, 40, 130);` .
 
 The map() function translates the error into an appropriate steering angle, ensuring that the robot corrects its course smoothly.
 
-##Color-Based Direction Setting:
+## Color-Based Direction Setting:
 As the robot navigates, it needs to establish and maintain its direction. We use an RGB color sensor to detect specific colors on the track, which helps the robot determine its heading. If the direction isn't set, it assigns the current color as the reference:
 
 `if (direction == 0) {
