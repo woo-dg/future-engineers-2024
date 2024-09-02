@@ -11,4 +11,4 @@ Utilizing all four wheels proved advantageous, particularly in maintaining a sma
 
 | Rear-Wheel Drive | Front Wheel Drive |
 | ---------------- | ----------------- |
-| ![image[](https://drive.google.com/uc?id=1Jf-CvguoRfaVFCoVMNndH-xFYlsa_ZU-)](https://drive.google.com/file/d/1SDZ7UYgAk0bHmONK6WKrsNthqmUGo5we/view?usp=sharing) |
+| ![image[](https://drive.google.com/file/d/1SDZ7UYgAk0bHmONK6WKrsNthqmUGo5we/view?usp=sharing) |
