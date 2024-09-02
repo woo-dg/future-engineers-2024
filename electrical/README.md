@@ -19,6 +19,7 @@ This directory consists of schematic diagrams demonstrating the connections betw
 ## Parts Bill Of Materials (BOM)
 | Part Name | Quantity |
 | ----------| -------- |
+| 1.5V Rechargeable Lithium Ion Battery | 4 |
 | DC 6V Micro Gear Box Speed Reduction Motor, 160RPM | 1 |
 | CJMCU34725 TCS34725 RGB Light Color Sensor | 1 |
 | Arduino Nano | 1 |
