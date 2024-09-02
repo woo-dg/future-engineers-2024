@@ -172,7 +172,7 @@ void loop(void) {
     }
   }
   
-  // End loop if a certain condition is met (e.g., number of turns)
+  // End loop if it has completed 3 laps
   if (oc == 12 || bc == 12) {
     move_degree(true, 50, 1600, 0);
     analogWrite(mlp, 255);
