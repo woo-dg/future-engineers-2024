@@ -1,5 +1,6 @@
 Video
 ====
 
-This directory must contain the video.md file with a URL to YouTube (should be either public or accessible by link) showing the vehicle driving autonomously.
-That part of the video where driving demonstration exists must be at least 30 seconds in length.
+This directory consists of the video which shows our robot working on the mat.
+
+Link to open and obstacle challenge video: https://youtu.be/4JPF5sEr0sk
