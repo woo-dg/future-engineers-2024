@@ -17,7 +17,7 @@ As the robot navigates, it needs to establish and maintain its direction. We use
 
 This ensures the robot is aligned with the track's color cues, setting a baseline for subsequent maneuvers.
 
-##Corner Detection and Handling:
+## Corner Detection and Handling:
 The robot’s cornering logic activates when it detects a change in color, indicating a corner or junction. The system checks if the color matches the established direction and if sufficient time has passed since the last turn. If these conditions are met, the robot adjusts its target angle and prepares to execute a turn:
 ` if (tcs.getColor() == direction && millis() - lastTurnTime > 2000) {
     delay(60);  // brief pause to stabilize
